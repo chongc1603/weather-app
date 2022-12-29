@@ -15,8 +15,39 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello World</h1>
-      <a href="" class="btn btn-primary">Click me</a>
+      <div class="weather-app">
+        <h1>New York</h1>
+        <ul>
+          <li><span>Thursday 23:22</span></li>
+          <li>Overcast clouds</li>
+        </ul>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              class="wob_tci"
+              alt="Cloudy"
+              src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+              id="wob_tci"
+              data-atf="1"
+              data-frt="0"
+            />
+            12°C | °F
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li>Precipitation: 0%</li>
+              <li>Humidity: <strong>93%</strong></li>
+              <li>Wind: <strong>3.13km/h</strong></li>
+            </ul>
+          </div>
+        </div>
+        <small
+          ><a href="https://github.com/chongc1603/weather-app" target="_blank"
+            >Open-source code</a
+          >
+          by Catherine Chong
+        </small>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
