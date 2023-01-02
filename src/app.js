@@ -8,7 +8,7 @@ function formatDate(timestamp) {
     "Friday",
     "Saturday",
   ];
-  let date = new Date(timestamp);
+  let date = new Date(timestamp * 1000);
   let hours = date.getHours();
   let minutes = date.getMinutes();
   let day = days[date.getDay()];
